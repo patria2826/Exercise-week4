@@ -33,7 +33,7 @@ void draw(){
     ellipse(mouseX, mouseY, 40, 40);
     //lose
     float w = abs(mouseX - x - 5);
-    if(w <= 40 && mouseX+15 > 40 && mouseX-15 < 440) {
+    if(w <= 50 && mouseX+15 > 40 && mouseX-15 < 440) {
       if(mouseY+10 > moBOT || mouseY-10 < moTOP) {
       gamestate = REPLAY;}
     }
